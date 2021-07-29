@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    int kor, math, soc, sci, sum, average;
+    scanf("%d %d %d %d", &kor, &math, &soc, &sci);
+    sum = kor + math + soc + sci;
+    average = sum / 4;
+    printf("총점 : %d, 평균 %d\n", sum, average);
+    
+    return 0;
+}
