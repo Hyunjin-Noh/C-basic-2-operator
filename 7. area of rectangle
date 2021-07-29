@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, b;
+    scanf("%d %d", &a, &b);
+    
+    printf("밑변의 길이가 %d이고, 높이가 %d인 직각삼각형의 면적은 : %d\n", a, b, a * b / 2);
+    
+    return 0;
+}
